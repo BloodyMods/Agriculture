@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "agriculture:items/strawberry_jelly_cookie_burned"
+    }
+}

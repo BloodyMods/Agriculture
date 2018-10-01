@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "agriculture:items/strawberry_ice_cream_mix"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "agriculture:items/chocolate_ice_cream_chocolate_sauce"
+    }
+}

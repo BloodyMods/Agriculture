@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "agriculture:items/double_bacon_cheeseburger"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "forge_marker": 1,
+  "defaults":     {
+    "model": "agriculture:counter"
+  },
+  "variants":     {
+    "normal":    [
+      { }
+    ],
+    "inventory": [
+      { }
+    ],
+    "facing":    {
+      "down":  { "transform": { "rotation": { "x": 90 } } },
+      "up":    { "transform": { "rotation": { "x": 270 } } },
+      "north": { "transform": "identity" },
+      "south": { "transform":  { "rotation": { "y": 180 } }},
+      "west":  { "transform": { "rotation": { "y": 270 } } },
+      "east":  { "transform": { "rotation": { "y": 90 } } }
+    },
+    "static": {
+      "true": {
+        "model": "agriculture:counter"
+      },
+      "false": {
+        "model": "agriculture:counter"
+      }
+    }
+  }
+}

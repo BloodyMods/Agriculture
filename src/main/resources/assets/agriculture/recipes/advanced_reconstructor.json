@@ -1,0 +1,31 @@
+{
+  "result": {
+    "item": "actuallyaddon:advanced_reconstructor"
+  },
+  "pattern": [
+    "xdx",
+    "frf",
+    "xcx"
+  ],
+  "type": "forge:ore_shaped",
+  "mirrored": true,
+  "key": {
+    "x": {
+      "item": "actuallyadditions:block_crystal",
+      "data": 5
+    },
+    "f": {
+      "item": "actuallyadditions:item_crystal_empowered",
+      "data": 2
+    },
+    "r": {
+      "item": "actuallyadditions:block_atomic_reconstructor"
+    },
+    "d": {
+      "item": "actuallyadditions:block_dropper"
+    },
+    "c": {
+      "item": "actuallyadditions:block_ranged_collector"
+    }
+  }
+}
