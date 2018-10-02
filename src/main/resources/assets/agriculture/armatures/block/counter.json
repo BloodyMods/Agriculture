@@ -12,15 +12,9 @@
       "events":      { }
     },
     "moving":  {
-      "loop":        true,
+      "loop":        false,
       "joint_clips": {
         "doorRight": [
-          {
-            "variable":      "offset_y",
-            "type":          "uniform",
-            "interpolation": "linear",
-            "samples":       [ 0, 0.08, 0.25, 0.42, 0.5, 0.42, 0.25, 0.08 ]
-          },
           {
             "variable":      "axis_y",
             "type":          "uniform",
@@ -47,6 +41,34 @@
             "type":          "uniform",
             "interpolation": "nearest",
             "samples":       [ 0.125 ]
+          }
+        ],"doorLeft": [
+          {
+            "variable":      "axis_y",
+            "type":          "uniform",
+            "interpolation": "nearest",
+            "samples":       [ 1 ]
+          },
+          {
+            "variable":      "angle",
+            "type":          "uniform",
+            "interpolation": "linear",
+            "samples":       [
+              0, 0, 0,
+              0, -90, 0
+            ]
+          },
+          {
+            "variable":      "origin_z",
+            "type":          "uniform",
+            "interpolation": "nearest",
+            "samples":       [ 0.0625 ]
+          },
+          {
+            "variable":      "origin_x",
+            "type":          "uniform",
+            "interpolation": "nearest",
+            "samples":       [ 0.875 ]
           }
         ],
         "base":      [

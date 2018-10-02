@@ -17,7 +17,7 @@
     "stopping"
   ],
   "transitions": {
-    // "default": "starting",
+    "default": "starting",
     "starting": [ "moving" ],
     "moving": "stopping",
     "stopping": "default"

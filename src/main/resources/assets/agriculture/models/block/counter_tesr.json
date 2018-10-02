@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "agriculture:blocks/machines/counter",
+		"particle": "agriculture:blocks/machines/counter"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [0, 0, 1],
+			"to": [16, 12, 16],
+			"faces": {
+				"north": {"uv": [3.75, 12.75, 7.75, 15.75], "texture": "#0"},
+				"east": {"uv": [0, 12.75, 3.625, 15.75], "texture": "#0"},
+				"south": {"uv": [11.5, 12.75, 15.375, 15.75], "texture": "#0"},
+				"west": {"uv": [7.75, 12.75, 11.375, 15.75], "texture": "#0"},
+				"up": {"uv": [3.75, 9, 7.625, 12.5], "texture": "#0"},
+				"down": {"uv": [7.75, 9, 11.625, 12.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [0, 12, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 7, 12, 8], "texture": "#0"},
+				"east": {"uv": [12, 7, 16, 8], "texture": "#0"},
+				"south": {"uv": [0, 7, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 7, 8, 8], "texture": "#0"},
+				"up": {"uv": [4, 3, 8, 7], "texture": "#0"},
+				"down": {"uv": [8, 3, 12, 7], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -20,7 +20,7 @@
     },
     "static": {
       "true": {
-        "model": "agriculture:counter"
+        "model": "agriculture:counter_tesr"
       },
       "false": {
         "model": "agriculture:counter"
